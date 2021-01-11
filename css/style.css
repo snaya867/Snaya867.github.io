@@ -1,0 +1,317 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Verdana;
+	color: #d4d4d4;
+	font-size: 14px;
+	background: #222222;
+}
+
+a {
+	color: #d4d4d4;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ffcb06;
+}
+
+.main {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+header {
+	background: #222222;
+	padding: 55px 160px 125px 160px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+nav ul {
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	margin-right: 70px;
+}
+
+.nav-li {
+	margin-right: 30px;
+}
+
+.mail-icon {
+	margin-right: 25px;
+}
+
+.header-moon {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.header-left {
+	margin-left: 130px;
+}
+
+.header-left h1 {
+	font-family: "Courier New";
+	font-weight: bold;
+	font-size: 45px;
+	color: #ffffff;
+	margin-bottom: 60px;
+}
+
+.header-left p {
+	margin-bottom: 60px;
+}
+
+.button-header {
+	width: 240px;
+	height: 50px;
+	background: #ffcb06;
+	border: none;
+	border-radius: 35px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.button-header span {
+	font-weight: bold;
+}
+
+.button-header:hover {
+	background: #d4d4d4;
+}
+
+.advantages {
+	padding: 80px 160px 80px 160px;
+	background: #131313;
+	display: flex;
+	justify-content: space-between;
+}
+
+.advantages p {
+	margin-top: 40px;
+}
+
+.content {
+	background:#ffffff;
+	color: #222222;
+	padding: 80px 160px 80px 160px;
+}
+
+.content-bottom {
+	display:flex;
+	justify-content: space-between;
+}
+.content-ul {
+	font-family: Verdana;
+	font-size: 14px;
+	margin-left: 80px;
+}
+.content-h1 {
+	font-family: "Courier New";
+	margin-left: 80px;
+	margin-bottom: 40px;
+}
+.content-h1-1 {
+	font-family: "Courier New";
+	
+	margin-top: 60px;
+}
+
+.content-top {
+	display:flex;
+	justify-content: space-between;
+}
+
+.cobra{
+	width:440px;
+}
+.cobra1{
+
+	width:440px;
+}
+.cobra1 li{
+	margin-bottom: 30px;
+}
+.content-ul-li{
+	margin-bottom: 30px;
+}
+.content-top span {
+	font-weight: bold;
+}
+.cobra li {
+	margin-bottom: 30px;
+}
+.form{
+	background:#f0f0f0;
+	color: #222222;
+	padding: 80px 160px 80px 160px;
+	display:flex;
+	justify-content:space-between;
+}
+.form h1{
+	font-family: "Courier New";
+}
+.form p{
+	margin-top:55px;
+	font-family:sans-serif;
+}
+input[type="text"] {
+	color:#222222;
+	font-family:sans-serif;
+	border:none;
+	padding:20px;
+}
+.width-input {
+	width:440px;
+	margin-bottom:10px;
+}
+
+
+.table{
+	background:#222222;
+	color: #222222;
+	padding: 80px 160px 80px 160px;
+}
+
+.xD {
+	color: #feca30;
+	font-size: 15px;
+	font-family: "Courier New";
+	font-weight: bold;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 100px;
+}
+
+
+.alex {
+		color: #ffffff;
+		font-size: 13px;
+		font-family: "Courier New";
+}
+
+.java {
+	color: #ffffff;
+	font-size: 14px;
+	font-family: Verdana;
+	font-weight: bold;
+	
+}
+
+.java p {
+	padding: 10px;
+}
+
+.java div {
+	border-bottom: 1px solid #555555;
+display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.java p {
+	width: 180px;
+}
+
+.al {
+	background: #111111;
+}
+
+.lasttable {
+	padding: 80px 160px 80px 160px;
+	background: #131313;
+	display: flex;
+	justify-content: space-between;
+}
+
+.acol {
+	font-size: 13px;
+	font-family: Verdana;
+	color: #555555;
+}
+
+
+
+.porum {
+	font-size: 14px;
+	font-family: Verdana;
+	margin-right: 20px;
+}
+
+.forgit {
+	margin-bottom: 110px;
+	display: flex;
+	align-items: center;
+}
+
+.forgit span {
+	margin-left: 20px;
+	margin-right: 130px;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.ftt {
+	margin-bottom: 70px;
+}
+
+.xo p {
+	margin-bottom: 30px;
+}
+
+.los {
+	margin-bottom: 70px;
+}
+
+.xy p {
+	margin-bottom: 30px;
+}
+
+.loa {
+	margin-bottom: 70px;
+}
+
+.xq p {
+	margin-bottom: 30px;
+}
+
+.lasttable h1  {
+	border-bottom: 1px solid #555555;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+	padding-bottom: 20px;
+}
+
+.lasttable p:hover {
+	color: #ffcb06;
+}
+
+
+
+
+
+
+
+
+
+
+
